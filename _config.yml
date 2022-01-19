@@ -1,0 +1,69 @@
+name: Volcamp 2022
+description: La première conférence au cœur des volcans d'Auvergne faite pour les passionnés de technologie, de développement et de terroir.
+author: Geek&Terroir
+keywords: Volcamp, tech conference, conference, auvergne, clermont-fd, Geek&Terroir
+
+url: https://www.volcamp.io
+
+day1: jeudi 13 
+day2: vendredi 11
+month: octobre 2022
+data-year: 2021
+data-month: 10
+data-day: 14
+data-hour: 09
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - .travis.yml
+  - .gitignore
+  - CNAME
+
+navigation:
+ - title: sponsors
+   url: /sponsors/
+ - title: l'équipe
+   url: /orga/
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:name
+  speakers:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talks
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speakers
+  - scope:
+      path: "speakers/tbd"
+    values:
+      sitemap: false
+  - scope:
+      path: "speakers/volcamp"
+    values:
+      sitemap: false
+
+syndication:
+  twitter: http://www.twitter.com/volcampio
+  github: https://github.com/Volcamp
+  linkedin: https://www.linkedin.com/company/volcampio
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gzip
+  - jekyll-minifier
