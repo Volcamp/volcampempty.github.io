@@ -59,7 +59,7 @@ custom_css: talks/stylesheet.css
             <div class="col-lg-8">
                 <div class="heading">
                     <div class="pl-90">
-                        <h2>Volcamp 2020</h2>
+                        <h2>{{ site.name }} {{ site.data-year }}</h2>
                     </div>
                 </div>
             </div>
@@ -67,12 +67,13 @@ custom_css: talks/stylesheet.css
         <div class="row">
             <div class="col-lg-12">
                 <p>
-                    Volcamp 2020 est reportée aux 14 et 15 octobre 2021
+                    Le programme est à définir.
                 </p>
                 <p>
-                    Une sélection sera faite à l'issue d'un CFP lancé en début d'année. 
+                    La sélection sera issue du "Call For Paper" qui se tiendra en avril et mai sur {{ site.data-year }} <a href="http://cfp.volcamp.io" target="_blank">http://cfp.volcamp.io</a>. 
                 </p>
             </div>
         </div>
     </div>
 </section>
+{% include agenda.html %}
