@@ -50,7 +50,7 @@ th, td {
   padding-left: 4px;
 }
 .csched{width: 4%;}
-.ctrack1, .ctrack2, .ctrack3 {width: 32%;}
+.ctrack1, .ctrack2, .ctrack3, .ctrack3 {width: 24%;}
 
 a.talk{
   display: flex;
