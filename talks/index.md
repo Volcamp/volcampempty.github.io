@@ -77,3 +77,4 @@ custom_css: talks/stylesheet.css
     </div>
 </section>
 
+{% include agenda.html %} 
