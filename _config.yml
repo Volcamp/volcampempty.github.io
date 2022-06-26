@@ -32,10 +32,10 @@ navigation:
    url: /orga/
 
 collections:
-  talks:
+  speakers:
     output: true
     permalink: /:collection/:name
-  speakers:
+  talks:
     output: true
     permalink: /:collection/:name
 
