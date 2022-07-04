@@ -1,6 +1,5 @@
 ---
-  name: Volcamp team
-  title: Volcamp - Volcamp team
+  title: Volcamp team
   abstract: La team Volcamp - Geek&Terroir
   twitter: volcampio
   photo: volcamp.jpg

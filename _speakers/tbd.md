@@ -1,6 +1,5 @@
 ---
-  name: TBD
-  title: Volcamp - TBD
+  title: TBD
   abstract: 
   twitter: none
   photo: none
