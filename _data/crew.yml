@@ -6,22 +6,6 @@
   employer: be ys Cloud
   committee: cfp, communication
   photo: cpr.jpg
-- cdi:
-  name: Claude Dioudonnat
-  twitter: claudusd
-  linkedin: claude-dioudonnat-89a405a9
-  jobtitle: Expert technique
-  employer: be ys Cloud
-  committee: finances, logistique
-  photo: cdi.jpg
-- dpe:
-  name: Daniel Petisme
-  twitter: danielpetisme
-  linkedin: danielpetisme
-  jobtitle: 
-  employer: Confluent
-  committee: cfp
-  photo: dpe.jpg
 - mvi:
   name: Matthieu Vincent
   twitter: yodamad03
@@ -30,14 +14,6 @@
   employer: sopra steria  
   committee: communication, sponsors, collegiale
   photo: mvi.jpg
-- tma:
-  name: Thomas Maurel
-  twitter: tmaurel
-  linkedin: tmaurel
-  jobtitle: Développeur
-  employer: Axys Consultants
-  committee: finances, logistique
-  photo: tma.jpg
 - gde:
   name: Guillaume Delaire
   twitter: gdelaire63
